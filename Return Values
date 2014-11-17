@@ -1,0 +1,19 @@
+#include <iostream>
+void returnNothing()
+{
+	using namespace std;
+	cout<<"This Function Returns Nothing"<< endl;
+}
+int Return5()
+{
+	return 5;
+}
+int main()
+{
+	using namespace std;
+	cout<<Return5()<< endl;//Prints Value in function "Return5"
+	cout<<Return5()+2<< endl;//Prints return5 plus 2
+	returnNothing();//Returns what is printed in the returnNothing() doesnt need COUT
+	return 0;
+}
+
