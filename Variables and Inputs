@@ -1,0 +1,11 @@
+#include <iostream>
+int main()
+{
+	using namespace std;
+	int y;//declares y as an i nteger
+	y=4;//declares the value of y
+	int x=y;
+	cout<<"enter a value for x ";// prompts user to input their value for x
+	cin>>x;//user inputs the value of x
+	cout<<x<< endl;//ends program.
+}
