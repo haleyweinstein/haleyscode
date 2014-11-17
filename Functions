@@ -1,0 +1,16 @@
+#include <iostream>
+void DoPrint()//declaration of function DoPrint
+{
+	using namespace std;
+	cout<<"In DoPrint()"<<endl;
+}
+int main()
+{
+	using namespace std;
+	cout<< "starting main()"<< endl;
+	DoPrint();
+	DoPrint();
+	DoPrint();
+	cout<<"ending main()"<<endl;
+	return 0;
+}
